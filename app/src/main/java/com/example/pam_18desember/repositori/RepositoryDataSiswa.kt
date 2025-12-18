@@ -6,8 +6,6 @@ import com.example.pam_18desember.modeldata.DataSiswa
 interface RepositoryDataSiswa {
     suspend fun getDataSiswa() : List<DataSiswa>
     suspend fun postDataSiswa(dataSiswa: DataSiswa) :retrofit2.Response<Void>
-    // suspend fun getSatuSiswa(id: Int) : DataSiswa
-    // suspend fun editSatuSiswa(
 }
 
 class JaringanRepositoryDataSiswa(
